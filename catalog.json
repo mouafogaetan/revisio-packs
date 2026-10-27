@@ -1,0 +1,78 @@
+{
+  "schema": 2,
+  "updated": "2026-10-27",
+  "minApp": "1.0.0",
+  "classes": [
+    {
+      "id": "1re-c",
+      "label": "Première C",
+      "order": 3,
+      "color": "#1d6fdb"
+    },
+    {
+      "id": "1re-d",
+      "label": "Première D",
+      "order": 4,
+      "color": "#1d6fdb"
+    }
+  ],
+  "matieres": [
+    {
+      "id": "anglais",
+      "label": "Anglais",
+      "order": 6,
+      "icon": "translate",
+      "accent": "#e08e0b"
+    },
+    {
+      "id": "maths",
+      "label": "Mathématiques",
+      "order": 1,
+      "icon": "calculate",
+      "accent": "#1d6fdb"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "maths.1re-c",
+      "version": 1,
+      "sha256": "bd692eda8c154dc0e9af57b627e872f4805305167085b09fa8f0db1858f5df2d",
+      "url": "programmes/maths.1re-c.json"
+    },
+    {
+      "id": "maths.1re-d",
+      "version": 1,
+      "sha256": "5f76c2c2837fbc5c0c9cb5b521f75635a18efaf434420bec968a7b7f4dc9e7e9",
+      "url": "programmes/maths.1re-d.json"
+    }
+  ],
+  "packs": [
+    {
+      "id": "anglais.family-social-life",
+      "type": "chapitre",
+      "matiere": "anglais",
+      "version": "1.0.0",
+      "size": 603,
+      "sha256": "cee577ffc2f4ffca4fbe190456f4d64a4b9ab9f9e83f9f48ac745d2fd30692fd",
+      "url": "packs/anglais.family-social-life-1793132352330.zip"
+    },
+    {
+      "id": "maths.epreuves",
+      "type": "epreuves",
+      "matiere": "maths",
+      "version": "1.0.0",
+      "size": 451,
+      "sha256": "db339cf4bd78611e324c203301c5d08e74797d036012e40c8602bfaca2be0e3d",
+      "url": "packs/maths.epreuves-1793132352335.zip"
+    },
+    {
+      "id": "maths.suites",
+      "type": "chapitre",
+      "matiere": "maths",
+      "version": "1.0.0",
+      "size": 2678,
+      "sha256": "1e77b9eb39337677b03966fb44d218ae0811c3818bd51f07acda7998c41a6fbd",
+      "url": "packs/maths.suites-1793132352353.zip"
+    }
+  ]
+}

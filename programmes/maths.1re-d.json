@@ -1,0 +1,9 @@
+{
+  "id": "maths.1re-d",
+  "matiere": "maths",
+  "classes": ["1re-d"],
+  "version": 1,
+  "chapitres": [
+    { "ref": "maths.suites", "ordre": 2, "trimestre": 2, "titre": "Suites numériques (D)" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "maths.1re-c",
+  "matiere": "maths",
+  "classes": ["1re-c"],
+  "version": 1,
+  "chapitres": [
+    { "ref": "maths.suites", "ordre": 1, "trimestre": 1 }
+  ]
+}
